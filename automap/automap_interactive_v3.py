@@ -4,14 +4,13 @@ from zabbix_utils import ZabbixAPI
 
 # --- CONFIGURATION ---
 ZBX_URL = "http://127.0.0.1/zabbix/api_jsonrpc.php"
-ZBX_USER = "Admin"
-ZBX_PASS = "zabbix"
+ZBX_TOKEN = "API TOKEN"
 
 ICON_MAP = {
     "switch": "154", "server": "149", "database": "191", "firewall": "28", "default": "3"
 }
 
-zapi = ZabbixAPI(url=ZBX_URL, user=ZBX_USER, password=ZBX_PASS)
+zapi = ZabbixAPI(url=ZBX_URL, api_token=ZBX_TOKEN)
 
 def get_tag(tags, name):
     return next((t['value'] for t in tags if t['tag'] == name), None)
