@@ -1,12 +1,11 @@
 from zabbix_utils import ZabbixAPI
 
-# Configuration - Replace with your Zabbix details
+# Configuration
 ZABBIX_URL = "http://127.0.0.1/zabbix/api_jsonrpc.php"
 API_TOKEN = "API"
 GROUP_NAME = "web-hosts"
 
 def setup_web_monitoring():
-    # Use 'token' instead of user/password
     zapi = ZabbixAPI(url=ZABBIX_URL, token=API_TOKEN)
 
     try:
@@ -52,8 +51,6 @@ def setup_web_monitoring():
 
     except Exception as e:
         print(f"[-] Error: {e}")
-    # Note: zapi.logout() is not strictly required when using Tokens,
-    # but it's safe to keep or remove.
 
 if __name__ == "__main__":
     setup_web_monitoring()
