@@ -2,7 +2,7 @@ from zabbix_utils import ZabbixAPI
 
 # Configuration - Replace with your Zabbix details
 ZABBIX_URL = "http://127.0.0.1/zabbix/api_jsonrpc.php"
-API_TOKEN = "7f41de4912c059610d4109c6c8310540940a044332b70afebb38b647c4ab3559"
+API_TOKEN = "API"
 GROUP_NAME = "web-hosts"
 
 def setup_web_monitoring():
