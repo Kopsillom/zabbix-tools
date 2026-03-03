@@ -1,0 +1,4 @@
+hostname,groups,templates,interface_type,ip,port,snmp_community,tags
+SRV-WEB-01,Linux servers;Web,Linux by Zabbix agent,agent,192.168.1.10,10050,,Env=Prod;Dept=IT
+SRV-DB-01,Linux servers;Databases,Linux by Zabbix agent;PostgreSQL by Zabbix agent,agent,192.168.1.11,10050,,Env=Prod;Dept=IT;Role=DB
+SW-CORE-01,Networking;Core,Cisco IOS by SNMP,snmp,10.0.0.1,161,public_community,Env=Prod;Loc=Rack-A1
