@@ -1,0 +1,12 @@
+hostname,groups,templates,interface_type,ip,port,snmp_community,tags,lat,lon
+SRV-CASA-01,GeoMap Hosts,Linux by Zabbix agent,agent,192.168.1.10,10050,,City=CASA;Region=Casablanca-Settat,33.5333,-7.5833
+SRV-RABAT-01,GeoMap Hosts,Linux by Zabbix agent,agent,192.168.1.11,10050,,City=RABAT;Region=Rabat-Sale-Kenitra,34.0209,-6.8416
+SRV-FES-01,GeoMap Hosts,Linux by Zabbix agent,agent,192.168.1.12,10050,,City=FES;Region=Fes-Meknes,34.0433,-5.0033
+SRV-TANGER-01,GeoMap Hosts,Linux by Zabbix agent,agent,192.168.1.13,10050,,City=TANGER;Region=Tanger-Tetouan-Al Hoceima,35.7767,-5.8039
+SRV-MARRAKECH-01,GeoMap Hosts,Linux by Zabbix agent,agent,192.168.1.14,10050,,City=MARRAKECH;Region=Marrakech-Safi,31.6300,-8.0089
+SRV-AGADIR-01,GeoMap Hosts,Linux by Zabbix agent,agent,192.168.1.15,10050,,City=AGADIR;Region=Souss-Massa,30.4333,-9.6000
+SRV-MEKNES-01,GeoMap Hosts,Linux by Zabbix agent,agent,192.168.1.16,10050,,City=MEKNES;Region=Fes-Meknes,33.8950,-5.5547
+SRV-OUJDA-01,GeoMap Hosts,Linux by Zabbix agent,agent,192.168.1.17,10050,,City=OUJDA;Region=Oriental,34.6867,-1.9114
+SRV-DAKHLA-01,GeoMap Hosts,Linux by Zabbix agent,agent,192.168.1.18,10050,,City=DAKHLA;Region=Dakhla-Oued Ed-Dahab,23.7081,-15.9456
+SRV-LAAYOUNE-01,GeoMap Hosts,Linux by Zabbix agent,agent,192.168.1.19,10050,,City=LAAYOUNE;Region=Laayoune-Sakia El Hamra,27.1536,-13.2033
+

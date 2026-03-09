@@ -6,7 +6,7 @@ import sys
 # ---------------- CONFIG ----------------
 # /zabbix/api_jsonrpc.php at the end of URL
 ZABBIX_URL = "http://127.0.0.1/zabbix/api_jsonrpc.php"
-API_TOKEN = "API"
+API_TOKEN = "81f55952edbcf69ac974ce2e2034a2dff0bbfddc59d9890bffa62eff59abed61"
 
 # Cache to avoid thousands of repetitive API calls
 cache = {"groups": {}, "templates": {}}
@@ -102,7 +102,11 @@ def process_host(row):
         "templates": templates,
         "tags": tags,
         "status": 0,         # 0 = Monitored
-        "inventory_mode": 1  # 1 = Automatic
+        "inventory_mode": 0, # 1 = Automatic
+	"inventory":{
+		"location_lat": row.get('lat', '').strip(),
+		"location_lon": row.get('lon', '').strip()
+	}
     }
 
     if host_id:

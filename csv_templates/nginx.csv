@@ -1,0 +1,3 @@
+hostname,groups,templates,ip,interface_type,port
+"Zabbix Appliance","Zabbix servers","Nginx by HTTP;Linux by Zabbix agent","127.0.0.1","agent","10050"
+
