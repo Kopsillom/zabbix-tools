@@ -6,7 +6,7 @@ import sys
 # ---------------- CONFIG ----------------
 # /zabbix/api_jsonrpc.php at the end of URL
 ZABBIX_URL = "http://127.0.0.1/zabbix/api_jsonrpc.php"
-API_TOKEN = "81f55952edbcf69ac974ce2e2034a2dff0bbfddc59d9890bffa62eff59abed61"
+API_TOKEN = "API"
 
 # Cache to avoid thousands of repetitive API calls
 cache = {"groups": {}, "templates": {}}
